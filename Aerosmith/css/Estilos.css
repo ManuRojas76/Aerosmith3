@@ -1,0 +1,225 @@
+header{
+	background: black;
+	text-align: right;
+	font-size: 20px;
+}
+
+header li{
+	padding: 5px;
+}
+
+section{
+	background: black;
+	text-align: left; 
+	} 
+	
+/*section strong{
+text-align: center;
+}*/
+
+section h2:nth-child(1){
+color:#FF5533;
+font-size: 40px;
+text-align: left;
+width: 100%;
+padding-left: 50px;
+}
+
+strong h2{
+	color: white;
+	padding-left :30px ;
+}
+ol{
+	color: white;
+}
+
+footer {
+    background: black;
+    color:green;
+}
+
+body {
+	background: black;
+}
+abbr{
+	text-decoration: none;
+}
+
+
+#bienvenida{
+	color:green;
+font-size: 20px;
+text-align: center;
+font-family: arial;
+}
+
+
+#btn_inicio{
+	color:#FF5533;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	border-radius: 5px;
+	display: inline-block;
+
+}
+
+#btn_historia{
+	color:#FF5533;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+#btn_integrantes{
+	color:#FF5533;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	border-radius: 5px;
+	display: inline-block;
+	
+}
+
+#btn_inicio_historia{
+	color:red;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+#btn_historia_historia{
+	color:red;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+#btn_integrantes_historia{
+	color:red;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+#descarga{
+	background: green;
+	padding-left: 50px;
+}
+
+#imagenHistoria{
+	padding-left: 50px;
+	padding-right: 100px;
+	
+}
+#imagenTrayectoria{
+	padding-left: 50px;
+	padding-right: 100px;
+	padding-top: 10px;
+	height: 450px;
+	width: 500px;
+}
+
+.textoHistoria{
+	padding-left: 50px;
+	color: white;
+}
+.tituloHistoria{
+	padding-left: 50px;
+	color: #FF5533;
+}
+.parrafo_historia{
+	color: red;
+	text-align: center;
+	font-size: 25px;
+}
+
+.numero{
+	
+	font-size: 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	padding-left: 50px;
+}
+.canciones{
+	color: white;
+	text-decoration: none;
+}
+
+.imagen{
+	text-align: center;
+}
+
+.menuhorizontal{
+	list-style-type: none;
+	
+}
+
+.numero:hover{	
+	/*background: #D133FF;*/
+	color:black;
+	background: linear-gradient(to bottom, #FF5533, #CD1701)
+
+}
+.menu_horizontal{
+	display: none;
+}
+
+.home{
+	text-align: center;
+	text-decoration: none;
+	color:white;
+	font-size: 50px;
+}
+
+.historia_de_la_banda{
+    background: black;
+	text-align: right;
+	font-size: 20px;
+
+}
+.Integrante{ 
+    background:url(´https://cdn.hipwallpaper.com/i/51/2/ArNWCJ.jpg´);
+}
+.lineas{
+	width: 100%;
+}
+ .col-6{
+display: inline-block;
+padding: 10px;
+float: left;
+width: 45%;
+text-align: center;
+color: #FF5533;
+}
+.col-6 h2{
+	color: white;
+}
+.tarjetas{
+
+}
+.card{
+	
+	text-align: center;
+	display: inline-block;	
+	padding: 20px;
+}
+.tarjetas .card:hover{
+transform: translateY(-15px);
+box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.tarjetas .card img{
+	width: 280px;
+	height: 220px;
+	
+}
+.tarjetas .card p{
+	padding: 0 1rem;
+	font-size: 16px;
+	font-weight: 300;
+	color: white;
+}
+.tarjetas .card a{
+	font-weight: 500;
+	text-decoration: none;
+	color: white;
+}
